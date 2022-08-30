@@ -64,5 +64,11 @@ const joke = [
   "I used to think I was indecisive. But now I'm not so sure.",
 ];
 
-console.log(motivation.length);
-console.log(joke.length);
+const motivationalGenerator =
+  motivation[Math.floor(Math.random() * motivation.length)];
+
+console.log(motivationalGenerator);
+
+const jokeGenerator = joke[Math.floor(Math.random() * joke.length)];
+
+console.log(jokeGenerator);
